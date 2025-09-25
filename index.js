@@ -51,7 +51,7 @@ async function loadDimensionTables() {
     };
 
     console.log('Loading dimension tables...');
-    cachedDimDateEcom = await loadCSVToArray(path.join(__dirname, 'csv/dim_date_ecom.csv'));
+    cachedDimDateEcom = await loadCSVToArray(path.join(__dirname, 'csv/Dim_Date_ecom.csv'));
     cachedDimDateWeather = await loadCSVToArray(path.join(__dirname, 'csv/dim_date_weather.csv'));
     cachedDimCountry = await loadCSVToArray(path.join(__dirname, 'csv/dim_country.csv'));
     cachedDimCustomer = await loadCSVToArray(path.join(__dirname, 'csv/Dim_Customer.csv'));
